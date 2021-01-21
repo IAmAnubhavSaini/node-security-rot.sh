@@ -1,0 +1,33 @@
+{
+  "name": "@f0c1s/security-rot.sh",
+  "version": "2021.1.1",
+  "description": "shell command for generating rot values of a given string",
+  "main": "src/rot.sh.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAmAnubhavSaini/node-security-rot.sh.git"
+  },
+  "keywords": [
+    "security",
+    "rot13",
+    "rot47",
+    "rotN",
+    "command"
+  ],
+  "author": "Anubhav <iamanubhavsaini@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAmAnubhavSaini/node-security-rot.sh/issues"
+  },
+  "homepage": "https://github.com/IAmAnubhavSaini/node-security-rot.sh#readme",
+  "dependencies": {
+    "@f0c1s/color-blue": "0.0.1",
+    "@f0c1s/color-green": "0.0.1",
+    "@f0c1s/color-red": "0.0.1",
+    "@f0c1s/color-yellow": "0.0.1",
+    "@f0c1s/security-rot": "^2021.1.2"
+  }
+}

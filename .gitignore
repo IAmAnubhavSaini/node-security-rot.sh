@@ -1,3 +1,6 @@
+.idea/
+*.swp
+
 # Logs
 logs
 *.log
