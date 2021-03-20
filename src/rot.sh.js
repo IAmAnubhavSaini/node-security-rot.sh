@@ -4,13 +4,11 @@ const red = require('@f0c1s/color-red')
 const yellow = require('@f0c1s/color-yellow')
 const blue = require('@f0c1s/color-blue')
 const green = require('@f0c1s/color-green')
-const {rot13, rot47, rot13n, rotations} = require('@f0c1s/security-rot')
-
-const {execSync} = require('child_process')
+const {rot5, rot13, rot18, rot47, rot13n, rotations} = require('@f0c1s/security-rot')
 
 const input = process.argv[2]
 
-const fns = [rot13, rot47]
+const fns = [rot5, rot13, rot18, rot47]
 
 console.log(blue('Start'))
 
